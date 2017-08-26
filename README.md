@@ -10,7 +10,7 @@ open the application on your browser at localhost:3000.
 Simply drag and drop images you like (upto 5 images) and add animation delay (default 1 second if left empty) then click on submit. 
 Hola! Gifmaker will create animated GIF. 
 
-#Libraries used
+# Libraries used
 MeteorJS - Fullstack JavaScript Application
 Gifshot - Animation library
 CollectionFS - File manager
