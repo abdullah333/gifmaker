@@ -1,3 +1,4 @@
+// this function will insert image to Images collection
 Meteor.saveFile = function(event) {
   FS.Utility.eachFile(event, function(file) {
     var newFile = new FS.File(file);
