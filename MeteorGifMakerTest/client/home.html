@@ -1,0 +1,50 @@
+<head>
+  <title>Gif Maker</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <nav class="red">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Welcome to Gif Maker</a>
+      </div>
+    </div>
+  </nav>
+<div class="container">
+    
+    <div>
+        <div>
+            <div id="dropDiv" ondrop="" ondragover=""><span>Drag and <em>Drop</em> here</span></div>
+            <br>
+        </div>
+        <div class="collection-item">
+            1.&nbsp;{{> gifmaker }}
+        </div>
+        <div>
+            2.&nbsp;{{> gifmaker }}
+        </div>
+        <div>
+            3.&nbsp;{{> gifmaker }}
+        </div>
+        <div>
+            4.&nbsp;{{> gifmaker }}
+        </div>
+        <div>
+            5.&nbsp;{{> gifmaker }}
+        </div>
+        <br>
+        <div id="gifImage"></div>
+        <div>
+            <label for="time">Delay</label>
+            <input id="time" name="time" type="number" placeholder="milliseconds" />
+        </div>
+        <br>
+        <div>
+            <button>Submit</button>
+        </div>
+    </div>
+</div>
+</body>
+<template name="gifmaker">
+    <input type=file />
+</template>
