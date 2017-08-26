@@ -3,7 +3,7 @@ This is Meteor Application that will create animate GIF from static images.
 # Prerequisits
 You need to install Meteor https://www.meteor.com/ to run this application
 # Run the GifMaker Application
-After you install the meteor on your system. You can download the gifmaker https://github.com/abdullah333/gifmaker.git then unzip the file. 
+After you install the meteor on your system. You can clone the application from https://github.com/abdullah333/gifmaker.git or download the gifmaker then unzip the file. 
 Then simply go to MeteorGifMakerTest directory and issue meteor command. Installation process will take few minutes. Once its done you can 
 open the application on your browser at localhost:3000.
 # How this application works
